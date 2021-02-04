@@ -1,0 +1,316 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "User can search desired job post",
+        "description": "",
+        "id": "application-functionality-test;user-can-search-desired-job-post;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 442806282,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in application home page and verify application header Search jobs in your area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search jobs in your area",
+                  "offset": 63
+                }
+              ],
+              "location": "StepDefinition.verifyApplicationPageContent(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1073199424,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter job title name QA Engineer and Job Location London and Distance up to 2 miles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "QA Engineer",
+                  "offset": 21
+                },
+                {
+                  "val": "London",
+                  "offset": 50
+                },
+                {
+                  "val": "up to 2 miles",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefinition.validateDefaultSearch(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17187782383,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on More Option button and verify the section is displayed",
+            "match": {
+              "location": "StepDefinition.validateMoreSearchButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17016856770,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Min Salary 40000 and Max Salary 50000 and Salary Type Per annum and Job Type Permanent",
+            "match": {
+              "arguments": [
+                {
+                  "val": "40000",
+                  "offset": 17
+                },
+                {
+                  "val": "50000",
+                  "offset": 38
+                },
+                {
+                  "val": "Per annum",
+                  "offset": 60
+                },
+                {
+                  "val": "Permanent",
+                  "offset": 83
+                }
+              ],
+              "location": "StepDefinition.validateMoreSearchButtonSection(String,String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8258182476,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Find job button and verify the Job Search Header Permanent Qa Engineer jobs in London",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Qa Engineer jobs in London",
+                  "offset": 58
+                }
+              ],
+              "location": "StepDefinition.validateFindJobs(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1317189851,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigate back to the home page and verify home page is displayed Search jobs in your area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search jobs in your area",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefinition.validateBrowserBack(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "User can search desired job post",
+        "description": "",
+        "id": "application-functionality-test;user-can-search-desired-job-post;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 66795006,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in application home page and verify application header Search jobs in your area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search jobs in your area",
+                  "offset": 63
+                }
+              ],
+              "location": "StepDefinition.verifyApplicationPageContent(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1053341939,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter job title name SDET and Job Location Reading and Distance up to 5 miles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SDET",
+                  "offset": 21
+                },
+                {
+                  "val": "Reading",
+                  "offset": 43
+                },
+                {
+                  "val": "up to 5 miles",
+                  "offset": 64
+                }
+              ],
+              "location": "StepDefinition.validateDefaultSearch(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14483868664,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on More Option button and verify the section is displayed",
+            "match": {
+              "location": "StepDefinition.validateMoreSearchButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26642643652,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Min Salary 35000 and Max Salary 40000 and Salary Type Per week and Job Type Contract",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35000",
+                  "offset": 17
+                },
+                {
+                  "val": "40000",
+                  "offset": 38
+                },
+                {
+                  "val": "Per week",
+                  "offset": 60
+                },
+                {
+                  "val": "Contract",
+                  "offset": 82
+                }
+              ],
+              "location": "StepDefinition.validateMoreSearchButtonSection(String,String,String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15854200559,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Find job button and verify the Job Search Header Contract Sdet jobs in Reading",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Sdet jobs in Reading",
+                  "offset": 58
+                }
+              ],
+              "location": "StepDefinition.validateFindJobs(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1296116331,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigate back to the home page and verify home page is displayed Search jobs in your area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search jobs in your area",
+                  "offset": 70
+                }
+              ],
+              "location": "StepDefinition.validateBrowserBack(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Application functionality test",
+    "description": "",
+    "id": "application-functionality-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/application.feature"
+  }
+]
