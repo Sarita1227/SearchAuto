@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="104.692983">
+<testcase classname="Application functionality test" name="User can search desired job post" time="45.296017">
+<system-out><![CDATA[Given User is in application home page and verify application header Search jobs in your area.passed
+Then Enter job title name QA Engineer and Job Location London and Distance up to 2 miles.passed
+Then Click on More Option button and verify the section is displayed........passed
+Then Enter Min Salary 40000 and Max Salary 50000 and Salary Type Per annum and Job Type Permanent.passed
+Then Click on Find job button and verify the Job Search Header Permanent Qa Engineer jobs in London.passed
+Then User navigate back to the home page and verify home page is displayed Search jobs in your area.passed
+]]></system-out>
+</testcase>
+<testcase classname="Application functionality test" name="User can search desired job post 2" time="59.396966">
+<system-out><![CDATA[Given User is in application home page and verify application header Search jobs in your area.passed
+Then Enter job title name SDET and Job Location Reading and Distance up to 5 miles.passed
+Then Click on More Option button and verify the section is displayed........passed
+Then Enter Min Salary 35000 and Max Salary 40000 and Salary Type Per week and Job Type Contract.passed
+Then Click on Find job button and verify the Job Search Header Contract Sdet jobs in Reading.passed
+Then User navigate back to the home page and verify home page is displayed Search jobs in your area.passed
+]]></system-out>
+</testcase>
+</testsuite>
